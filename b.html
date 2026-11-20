@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WITH YUN WEDDING | 위드윤웨딩</title>
+<meta name="description" content="두 사람다운 순간, 오래도록 아름답게. 위드윤웨딩 — 웨딩 디렉팅 &amp; 플라워 디자인">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Montserrat:wght@300;400;600&family=Noto+Sans+KR:wght@300;400;500&display=swap">
+<style>
+body{margin:0;background:#ffffff}
+html{scroll-behavior:smooth}
+a{color:#000000;text-decoration:none}
+a:hover{color:#666666}
+.menu{position:fixed;inset:0;z-index:50;background:#000000;color:#ffffff;opacity:0;visibility:hidden;transition:opacity .5s ease,visibility .5s ease;overflow-y:auto}
+.menu-open .menu{opacity:1;visibility:visible}
+.menu a{color:#ffffff}
+.menu a:hover{color:#9a9a9a}
+.menu .grp{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.menu-open .menu .grp{opacity:1;transform:none}
+.menu-open .menu .grp:nth-child(2){transition-delay:.08s}
+.menu-open .menu .grp:nth-child(3){transition-delay:.16s}
+.menu-open .menu .grp:nth-child(4){transition-delay:.24s}
+@keyframes fadeA{0%{opacity:1}30%{opacity:1}36%{opacity:0}94%{opacity:0}100%{opacity:1}}
+@keyframes fadeB{0%{opacity:0}30%{opacity:0}36%{opacity:1}63%{opacity:1}69%{opacity:0}100%{opacity:0}}
+@keyframes fadeC{0%{opacity:0}63%{opacity:0}69%{opacity:1}94%{opacity:1}100%{opacity:0}}
+@keyframes zoom{from{transform:scale(1.12)}to{transform:scale(1)}}
+.s1{animation:fadeA 18s infinite}
+.s2{animation:fadeB 18s infinite}
+.s3{animation:fadeC 18s infinite}
+.slide .ph{animation:zoom 18s ease-out infinite}
+@keyframes up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+.ttl{animation:up 1.4s .3s ease both}
+.ttl2{animation:up 1.4s .6s ease both}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+.chev{animation:bob 2.2s ease-in-out infinite}
+.js .rv{opacity:0;transform:translateY(40px);transition:opacity 1.2s ease,transform 1.2s ease}
+.js .rv.on{opacity:1;transform:none}
+.frame{overflow:hidden}
+.frame>div{transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.work:hover .frame>div{transform:scale(1.06)}
+.ul{background-image:linear-gradient(currentColor,currentColor);background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .4s ease}
+.ul:hover{background-size:100% 1px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.s1{opacity:1}.s2,.s3{opacity:0}.js .rv{opacity:1;transform:none}}
+</style>
+<script>if('IntersectionObserver' in window)document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<div style="font-family: 'Montserrat', 'Noto Sans KR', sans-serif; color: #000000; background: #ffffff; font-weight: 300; font-size: 14px; line-height: 1.9; word-break: keep-all">
+
+<header style="position: sticky; top: 0; z-index: 40; background: #ffffff; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 10px clamp(16px, 3vw, 40px); box-sizing: border-box; border-bottom: 1px solid #ececec">
+<span></span>
+<a href="#top" aria-label="위드윤웨딩 처음으로" style="display: flex; flex-direction: column; align-items: center; min-height: 44px; justify-content: center">
+<span style="font-family: 'Cinzel', serif; font-size: 22px; font-weight: 500; letter-spacing: 0.08em; line-height: 1.1">WITH YUN</span>
+<span style="font-size: 9px; font-weight: 400; letter-spacing: 0.5em; padding-left: 0.5em; line-height: 1.6">WEDDING</span>
+</a>
+<div style="display: flex; justify-content: flex-end">
+<button type="button" data-menu="open" aria-label="메뉴 열기" style="width: 48px; height: 48px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; background: transparent; border: 0; padding: 0; cursor: pointer">
+<span style="display: block; width: 28px; height: 1.5px; background: #000000; pointer-events: none"></span>
+<span style="display: block; width: 28px; height: 1.5px; background: #000000; pointer-events: none"></span>
+<span style="display: block; width: 28px; height: 1.5px; background: #000000; pointer-events: none"></span>
+</button>
+</div>
+</header>
+
+<nav class="menu" aria-label="전체 메뉴">
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px clamp(16px, 3vw, 40px)">
+<span style="font-family: 'Cinzel', serif; font-size: 22px; font-weight: 500; letter-spacing: 0.08em">WITH YUN</span>
+<button type="button" data-menu="close" aria-label="메뉴 닫기" style="width: 48px; height: 48px; background: transparent; border: 0; padding: 0; cursor: pointer; color: #ffffff">
+<svg viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.4; pointer-events: none"><path d="M4 4L20 20M20 4L4 20"></path></svg>
+</button>
+</div>
+<div style="max-width: 1100px; margin: 0 auto; padding: clamp(40px, 8vw, 120px) clamp(24px, 5vw, 64px); box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 48px clamp(32px, 5vw, 80px)">
+<div class="grp" style="flex: 1 1 180px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 600; letter-spacing: 0.24em; color: #9a9a9a; padding-bottom: 8px">COMPANY</span>
+<a data-menu="close" href="#about" style="font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 0.06em; min-height: 44px; display: flex; align-items: center">About</a>
+<a data-menu="close" href="#story" style="font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 0.06em; min-height: 44px; display: flex; align-items: center">Founder</a>
+</div>
+<div class="grp" style="flex: 1 1 180px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 600; letter-spacing: 0.24em; color: #9a9a9a; padding-bottom: 8px">WEDDING</span>
+<a data-menu="close" href="#service" style="font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 0.06em; min-height: 44px; display: flex; align-items: center">Directing</a>
+<a data-menu="close" href="#service" style="font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 0.06em; min-height: 44px; display: flex; align-items: center">Floral Design</a>
+</div>
+<div class="grp" style="flex: 1 1 180px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 600; letter-spacing: 0.24em; color: #9a9a9a; padding-bottom: 8px">LIBRARY</span>
+<a data-menu="close" href="#works" style="font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 0.06em; min-height: 44px; display: flex; align-items: center">Portfolio</a>
+<a data-menu="close" href="#film" style="font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 0.06em; min-height: 44px; display: flex; align-items: center">Wedding Film</a>
+</div>
+<div class="grp" style="flex: 1 1 180px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 600; letter-spacing: 0.24em; color: #9a9a9a; padding-bottom: 8px">CONTACT</span>
+<a data-menu="close" href="#contact" style="font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 0.06em; min-height: 44px; display: flex; align-items: center">Enquiries</a>
+<div style="display: flex; flex-wrap: wrap; gap: 0 20px; padding-top: 12px; font-size: 12px; letter-spacing: 0.16em">
+<a href="#contact" style="min-height: 44px; display: flex; align-items: center">INSTAGRAM</a>
+<a href="#contact" style="min-height: 44px; display: flex; align-items: center">BLOG</a>
+<a href="#contact" style="min-height: 44px; display: flex; align-items: center">KAKAO</a>
+</div>
+</div>
+</div>
+</nav>
+
+<section id="top" aria-label="메인" style="position: relative; height: clamp(560px, 64vw, 920px); overflow: hidden; background: #8c867e">
+<div class="slide s1" style="position: absolute; inset: 0"><div class="ph" style="position: absolute; inset: 0; background: #8c867e"></div></div>
+<div class="slide s2" style="position: absolute; inset: 0"><div class="ph" style="position: absolute; inset: 0; background: #6a6f68"></div></div>
+<div class="slide s3" style="position: absolute; inset: 0"><div class="ph" style="position: absolute; inset: 0; background: #9e958a"></div></div>
+<div style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 24px; gap: 24px; color: #ffffff">
+<h1 class="ttl" style="margin: 0; font-family: 'Cinzel', serif; font-size: clamp(34px, 4.6vw, 64px); font-weight: 600; letter-spacing: 0.08em; line-height: 1.25">UNIQUELY YOURS<br>TIMELESSLY<br>BEAUTIFUL</h1>
+<p class="ttl2" style="margin: 0; font-size: 15px; font-weight: 400; letter-spacing: 0.12em">두 사람다운 순간, 오래도록 아름답게.</p>
+</div>
+<span style="position: absolute; left: 24px; bottom: 24px; font-size: 11px; letter-spacing: 0.14em; color: #ffffff">메인 사진 3장이 천천히 넘어갑니다 (자리 표시)</span>
+<a class="chev" href="#about" aria-label="아래로" style="position: absolute; left: 50%; bottom: 28px; margin-left: -24px; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; color: #ffffff">
+<svg viewBox="0 0 40 20" aria-hidden="true" style="width: 40px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.2"><path d="M2 3L20 17L38 3"></path></svg>
+</a>
+</section>
+
+<section id="about" style="padding: clamp(96px, 12vw, 180px) 24px; box-sizing: border-box">
+<div style="max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px">
+<span class="rv" style="font-size: 11px; font-weight: 600; letter-spacing: 0.32em">WEDDING DIRECTING &amp; FLORAL DESIGN</span>
+<h2 class="rv" style="margin: 0; font-family: 'Cinzel', serif; font-size: clamp(22px, 2.4vw, 32px); font-weight: 500; letter-spacing: 0.06em; line-height: 1.5">Harmony over Formality</h2>
+<p class="rv" style="margin: 0; font-size: 15px; color: #444444">위드윤웨딩은 두 사람의 취향과 이야기를 담아 특별한 하루를 완성하는 웨딩 디렉팅 &amp; 플라워 디자인 브랜드입니다. 공간이 지닌 고유한 아름다움에 계절의 색감과 자연스러운 플라워 디자인을 더해, 두 사람만의 분위기를 섬세하게 표현합니다.</p>
+<p class="rv" style="margin: 0; font-size: 15px; color: #444444">정해진 형식보다는 조화로운 아름다움을 추구합니다.</p>
+</div>
+</section>
+
+<section id="service" aria-label="서비스" style="padding: 0 clamp(16px, 3vw, 40px) clamp(96px, 12vw, 180px); box-sizing: border-box">
+<div style="display: flex; flex-wrap: wrap; gap: 40px clamp(12px, 1.6vw, 24px)">
+<a class="work rv" href="#works" style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<div class="frame" style="height: clamp(420px, 40vw, 620px)"><div style="height: 100%; background: #e9e7e3; display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; box-sizing: border-box"><span style="font-size: 12px; letter-spacing: 0.1em; color: #666666">사진 자리 · 웨딩 디렉팅</span></div></div>
+<p style="margin: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px"><span style="font-size: 12px; letter-spacing: 0.12em; color: #666666">웨딩 기획</span><span class="ul" style="font-size: 13px; font-weight: 600; letter-spacing: 0.16em">WEDDING DIRECTING</span></p>
+</a>
+<a class="work rv" href="#works" style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<div class="frame" style="height: clamp(420px, 40vw, 620px)"><div style="height: 100%; background: #e2e0da; display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; box-sizing: border-box"><span style="font-size: 12px; letter-spacing: 0.1em; color: #666666">사진 자리 · 플라워 디자인</span></div></div>
+<p style="margin: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px"><span style="font-size: 12px; letter-spacing: 0.12em; color: #666666">플라워 디자인</span><span class="ul" style="font-size: 13px; font-weight: 600; letter-spacing: 0.16em">FLORAL DESIGN</span></p>
+</a>
+<a class="work rv" href="#works" style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<div class="frame" style="height: clamp(420px, 40vw, 620px)"><div style="height: 100%; background: #e9e7e3; display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; box-sizing: border-box"><span style="font-size: 12px; letter-spacing: 0.1em; color: #666666">사진 자리 · 예식 당일</span></div></div>
+<p style="margin: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px"><span style="font-size: 12px; letter-spacing: 0.12em; color: #666666">예식 당일 총괄 디렉팅</span><span class="ul" style="font-size: 13px; font-weight: 600; letter-spacing: 0.16em">WEDDING DAY</span></p>
+</a>
+</div>
+</section>
+
+<section id="story" style="background: #f5f5f5; padding: clamp(96px, 12vw, 180px) clamp(16px, 3vw, 40px); box-sizing: border-box">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: clamp(40px, 7vw, 120px)">
+<div class="rv frame" style="flex: 1 1 340px; min-width: 0; height: clamp(460px, 48vw, 680px)"><div style="height: 100%; background: #d9d6d0; display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; box-sizing: border-box"><span style="font-size: 12px; letter-spacing: 0.1em; color: #555555">사진 자리 · 대표 또는 작업 모습</span></div></div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span class="rv" style="font-size: 11px; font-weight: 600; letter-spacing: 0.32em">OUR STORY</span>
+<h2 class="rv" style="margin: 0; font-size: clamp(20px, 2vw, 26px); font-weight: 400; line-height: 1.6">플라워에서 시작된 감각,<br>웨딩을 완성하다.</h2>
+<p class="rv" style="margin: 0; font-size: 15px; color: #444444">플로리스트로 시작된 섬세한 시선은 공간과 사람, 그리고 결혼식의 모든 순간을 아우르는 디렉팅으로 이어졌습니다.</p>
+<p class="rv" style="margin: 0; font-family: 'Cinzel', serif; font-size: clamp(16px, 1.5vw, 19px); letter-spacing: 0.04em; line-height: 1.8">“우리는 모든 결혼식에 저마다의 이야기가 담겨 있다고 믿습니다.”</p>
+<p class="rv" style="margin: 0; font-size: 15px; color: #444444">두 사람의 취향과 소중한 사람들, 함께 나누는 진심 어린 순간들. 그 모든 것이 자연스럽게 어우러져 오직 두 사람만의 결혼식이 되도록. 유행을 따르기보다 두 사람다운 아름다움을 담아, 시간이 흘러도 오래도록 기억될 하루를 만들어갑니다.</p>
+<p class="rv" style="margin: 0; padding-top: 8px; display: flex; flex-direction: column; gap: 0"><span style="font-size: 11px; font-weight: 600; letter-spacing: 0.24em; color: #666666">FOUNDER &amp; DIRECTOR</span><span style="font-family: 'Cinzel', serif; font-size: 18px; letter-spacing: 0.1em">YOON YOUNG JU · 윤영주</span></p>
+</div>
+</div>
+</section>
+
+<section id="film" style="padding: clamp(96px, 12vw, 180px) clamp(16px, 3vw, 40px) 0; box-sizing: border-box">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px">
+<div class="rv" style="aspect-ratio: 16 / 9; background: #1a1a1a; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; padding: 24px; box-sizing: border-box; color: #ffffff">
+<svg viewBox="0 0 60 60" aria-hidden="true" style="width: 60px; height: 60px; fill: none; stroke: currentColor; stroke-width: 1.2"><circle cx="30" cy="30" r="28"></circle><path d="M24 19L42 30L24 41Z"></path></svg>
+<span style="font-size: 12px; letter-spacing: 0.1em">영상 자리 · 예식 하이라이트 영상</span>
+</div>
+<p class="rv" style="margin: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px"><span style="font-size: 12px; letter-spacing: 0.12em; color: #666666">‘두 사람다운 순간, 오래도록 아름답게’</span><span style="font-size: 13px; font-weight: 600; letter-spacing: 0.16em">WEDDING FILM</span></p>
+</div>
+</section>
+
+<section id="works" style="padding: clamp(96px, 12vw, 180px) clamp(16px, 3vw, 40px); box-sizing: border-box">
+<div style="display: flex; flex-direction: column; gap: clamp(40px, 5vw, 64px)">
+<div class="rv" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px">
+<span style="font-size: 11px; font-weight: 600; letter-spacing: 0.32em">LIBRARY</span>
+<h2 style="margin: 0; font-family: 'Cinzel', serif; font-size: clamp(22px, 2.4vw, 32px); font-weight: 500; letter-spacing: 0.06em">Wedding Portfolio</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 48px clamp(12px, 1.6vw, 24px)">
+<a class="work rv" href="#works" style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<div class="frame" style="height: clamp(360px, 34vw, 520px)"><div style="height: 100%; background: #e9e7e3; display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; box-sizing: border-box"><span style="font-size: 12px; letter-spacing: 0.1em; color: #666666">예식 대표 사진 1</span></div></div>
+<p style="margin: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px"><span style="font-size: 12px; letter-spacing: 0.12em; color: #666666">[예식 장소]</span><span class="ul" style="font-size: 13px; font-weight: 600; letter-spacing: 0.16em">‘[예식 콘셉트 한 줄]’</span></p>
+</a>
+<a class="work rv" href="#works" style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<div class="frame" style="height: clamp(360px, 34vw, 520px)"><div style="height: 100%; background: #e2e0da; display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; box-sizing: border-box"><span style="font-size: 12px; letter-spacing: 0.1em; color: #666666">예식 대표 사진 2</span></div></div>
+<p style="margin: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px"><span style="font-size: 12px; letter-spacing: 0.12em; color: #666666">[예식 장소]</span><span class="ul" style="font-size: 13px; font-weight: 600; letter-spacing: 0.16em">‘[예식 콘셉트 한 줄]’</span></p>
+</a>
+</div>
+<div class="rv" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px">
+<a href="#contact" style="min-height: 48px; padding: 0 36px; display: flex; align-items: center; border: 1px solid #000000; font-size: 12px; font-weight: 600; letter-spacing: 0.2em">INSTAGRAM VIEW</a>
+<a href="#contact" style="min-height: 48px; padding: 0 36px; display: flex; align-items: center; border: 1px solid #000000; font-size: 12px; font-weight: 600; letter-spacing: 0.2em">BLOG VIEW</a>
+</div>
+</div>
+</section>
+
+<section id="contact" style="border-top: 1px solid #ececec; padding: clamp(72px, 9vw, 120px) clamp(16px, 3vw, 40px); box-sizing: border-box">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 48px clamp(40px, 6vw, 96px); font-size: 12px; letter-spacing: 0.06em">
+<div class="rv" style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em">WITH YUN WEDDING</h3>
+<p style="margin: 0; color: #444444">[주소]<br>TEL [전화번호]<br>[운영 요일·시간] / 예약제 상담</p>
+</div>
+<div class="rv" style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em">ENQUIRIES</h3>
+<dl style="margin: 0; display: flex; flex-direction: column; gap: 10px; color: #6b6b6b">
+<div><dt style="font-weight: 600">웨딩 상담 문의</dt><dd style="margin: 0">[이메일 또는 카카오톡 채널]</dd></div>
+<div><dt style="font-weight: 600">협업 · 제휴 문의</dt><dd style="margin: 0">[이메일]</dd></div>
+</dl>
+</div>
+<div class="rv" style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em">FOLLOW</h3>
+<div style="display: flex; flex-direction: column">
+<a class="ul" href="#contact" style="align-self: flex-start; min-height: 36px; display: flex; align-items: center; font-weight: 600; letter-spacing: 0.16em">INSTAGRAM</a>
+<a class="ul" href="#contact" style="align-self: flex-start; min-height: 36px; display: flex; align-items: center; font-weight: 600; letter-spacing: 0.16em">BLOG</a>
+<a class="ul" href="#contact" style="align-self: flex-start; min-height: 36px; display: flex; align-items: center; font-weight: 600; letter-spacing: 0.16em">KAKAO</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer style="background: #000000; color: #ffffff; padding: 36px clamp(16px, 3vw, 40px); box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; font-size: 11px; letter-spacing: 0.1em; line-height: 1.7">
+<span>COPYRIGHT ©2026<br>WITH YUN WEDDING · 대표 윤영주 · [사업자등록번호]</span>
+<a href="#top" style="color: #ffffff; min-height: 44px; display: flex; align-items: center; font-weight: 600; letter-spacing: 0.24em">TOP ↑</a>
+</footer>
+
+</div>
+<script>
+(function(){if(!('IntersectionObserver' in window))return;var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}});},{threshold:0.12});document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});})();
+</script>
+<script>
+document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-menu]');if(!b)return;document.documentElement.classList.toggle('menu-open',b.getAttribute('data-menu')==='open');});
+</script>
+</body>
+</html>
